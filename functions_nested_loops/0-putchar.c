@@ -1,22 +1,24 @@
-/**
+/*
 * File: 0-putchar.c
 * Auth: Antonio Kumoth
 */
 
 #include "main.h"
 
-/**
+/*
  *Main-Write a program that prints _putchar, followed by a new line
  *Return: Always 0 (Success)
 */
 
 int main (void)
 {
-	char c[9] = "putchar\n";
+	char c[9] = "_putchar\n";
 	int i;
 
-/**
- *@a, @i
+/*
+ *@c, @i
+ *
+ *
  *
  *Description: Variable C used for the "string" to putchar
  */
